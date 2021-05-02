@@ -1,0 +1,39 @@
+.cart {
+  border: 5px solid #ddd;
+  margin-top: 2rem;
+}
+
+.cart-product {
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+  & .name {
+    flex-grow: 1;
+    padding: 0 1rem;
+  }
+  & .discounted {
+    color: #000;
+    font-weight: bold;
+  }
+  & .promo-applied {
+    text-decoration: line-through;
+    margin-right: 1rem;
+  }
+}
+
+.cart-summary {
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+
+  & .item {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    & .label {
+      margin: 1rem;
+    }
+  }
+}

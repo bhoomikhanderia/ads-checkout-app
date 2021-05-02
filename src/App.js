@@ -1,6 +1,6 @@
 import "./styles/app.scss";
 import Customer from "./components/Customer";
-import Products from "./components/Products";
+import ProductsList from "./components/ProductsList";
 import Cart from "./components/Cart";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="app">
       <h1>Welcome to Seek's Ad Checkout ~</h1>
       <Customer />
-      <Products />
+      <ProductsList />
       <Cart />
     </div>
   );
